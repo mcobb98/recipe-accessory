@@ -11,6 +11,7 @@ import { PantryComponent } from './pantry/pantry.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { ExploreComponent } from './explore/explore.component';
 import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FormsModule } from '@angular/forms';
     DashboardComponent,
     PantryComponent,
     ScheduleComponent,
-    ExploreComponent
+    ExploreComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
